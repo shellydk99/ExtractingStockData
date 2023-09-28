@@ -40,7 +40,11 @@ We can plot the Open price against the Date:
   apple_share_price_data.plot(x="Date", y="Open")
 ```
 ![Screenshot (1336)](https://github.com/shellydk99/ExtractingStockData/assets/126668898/a876836c-97c1-47e5-a481-5d316292e9e4)
+
+### Extracting Dividens
+Dividends are the distribution of a companys profits to shareholders. In this case they are defined as an amount of money returned per share an investor owns. Using the variable dividends we can get a dataframe of the data. The period of the data is given by the period defined in the 'history` function.
 ```r{}
 apple.dividends
 apple.dividends.plot()
 ```
+![Screenshot (1337)](https://github.com/shellydk99/ExtractingStockData/assets/126668898/2976c1db-ba2e-4206-90c6-2cea243855bf)
