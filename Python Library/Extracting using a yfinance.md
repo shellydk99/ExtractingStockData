@@ -39,3 +39,8 @@ We can plot the Open price against the Date:
 ```r{}
   apple_share_price_data.plot(x="Date", y="Open")
 ```
+![Screenshot (1336)](https://github.com/shellydk99/ExtractingStockData/assets/126668898/a876836c-97c1-47e5-a481-5d316292e9e4)
+```r{}
+apple.dividends
+apple.dividends.plot()
+```
